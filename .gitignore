@@ -1,0 +1,79 @@
+# ── Dokumen internal: hanya lokal, tidak dipublikasikan ──────────────────────
+# Rancangan, aturan Claude Code, spike Fase 0, dan panduan agen AI
+/docs/
+/.claude/
+/spikes/
+/CLAUDE.md
+CLAUDE.local.md
+
+# ── Dependensi & cache ───────────────────────────────────────────────────────
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+coverage/
+.metro-health-check*
+.eslintcache
+*.tsbuildinfo
+
+# ── Native — dihasilkan oleh `expo prebuild` ─────────────────────────────────
+/android
+/ios
+.gradle/
+.cxx/
+local.properties
+
+# ── Artefak build & hasil uji ────────────────────────────────────────────────
+*.apk
+*.aab
+*.idsig
+build/
+*.hprof
+.maestro/output/
+maestro-results/
+
+# ── Environment, kredensial & kunci penandatanganan ──────────────────────────
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+*.pem
+*.p12
+*.key
+credentials.json
+credentials/
+client_secret*.json
+google-services.json
+*serviceAccount*.json
+.tokens/
+
+# Sentry: auth token upload source map (EAS secret, rules 05)
+.sentryclirc
+sentry.properties
+
+# ── Data nyata perusahaan (backup, ekspor, laporan) ──────────────────────────
+/backups/
+*.xlsx
+*.csv
+*.sqlite
+*.db
+
+# ── Log ──────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS & editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.orig
